@@ -1,0 +1,12 @@
+name: brian2-binder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip=23.*
+  - matplotlib=3.8*
+  - brian2
+  - ipympl
+  - pip:
+    - brian2tools
+
